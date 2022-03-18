@@ -60,7 +60,7 @@ function selectVillager() {
   villagerImgEl.classList.add("active");
 }
 
-// Simulate Catch function
+// Simulate random catch function with the given probabilities of Cod, Salmon and Tropical fish
 function simulateCatch(codChance, salmonChance, tropicalChance) {
 let randNum = Math.random();
     if (randNum < codChance) {
